@@ -2803,11 +2803,7 @@ let capt = `⭔ Title: ${judul}
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Halo Bre... Lagi Gabut\n`,
-                    description: "Sistem otomatis (Bot WhatsApp) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp
-
-Persyaratan dalam menggunakan bot sudah jelas pasti ada, untuk menghindari spam dan lain lain sebagainya
-
-Dengan menggunakan bot ini maka anda setuju dengan Syarat dan Ketentuan yang sudah di tetapkan",
+                    description: "*Klik Disini*",
                     buttonText: "Klik!",
                     footerText: "Njir masih dibaca",
                     listType: "SINGLE_SELECT",
